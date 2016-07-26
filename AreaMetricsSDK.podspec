@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "AreaMetricsSDK"
-  s.version = "2.2.150"
+  s.version = "2.3.0"
   s.summary = "AreaMetrics iOS SDK"
   s.homepage = "http://areametrics.com"
   s.author = {"AreaMetrics, Inc." => "engineering@areametrics.com"}
