@@ -1,0 +1,6 @@
+framework module AreaMetricsSDK {
+  umbrella header "AreaMetricsSDK.h"
+
+  export *
+  module * { export * }
+}
