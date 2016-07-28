@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.author = { "AreaMetrics, Inc." => "engineering@areametrics.com" }
   s.platform = :ios, "7.0"
   s.source = { :git => "https://github.com/AreaMetrics/iOS-SDK.git", :tag => "v2.2.198" }
+  s.source_files = 'AreaMetricsSDK.framework/Versions/A/Headers/*.h'
   s.preserve_paths = 'AreaMetricsSDK.framework'
   s.vendored_frameworks = 'AreaMetricsSDK.framework'
   s.public_header_files = 'AreaMetricsSDK.framework/Versions/A/Headers/*.h'
