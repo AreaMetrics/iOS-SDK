@@ -12,14 +12,11 @@
 
 #define AREAMETRICS_PROXIMITY_UUID [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B577272"]
 
-
 //! Project version number for AreaMetricsSDK.
 FOUNDATION_EXPORT double AreaMetricsSDKVersionNumber;
 
 //! Project version string for AreaMetricsSDK.
 FOUNDATION_EXPORT const unsigned char AreaMetricsSDKVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <AreaMetricsSDK/PublicHeader.h>
 
 @interface AreaMetricsSDK : NSObject
 
