@@ -36,4 +36,7 @@ FOUNDATION_EXPORT const unsigned char AreaMetricsSDKVersionString[];
 -(NSString *) getVersionString;
 -(NSString *) getUUID;
 
+//preLocationInitialize is deprecated! Do not call it, and please remove old code calling it. It is no longer required and does not have any functionality. Simply retained as an empty function as a courtesy for updaters.
+-(void)preLocationInitialize;
+
 @end
