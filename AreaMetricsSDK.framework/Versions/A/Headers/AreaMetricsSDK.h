@@ -18,7 +18,7 @@
 
 +(instancetype)sharedInstance;
 
--(void)startServiceForAppID:(NSString *)appId withAPIKey:(NSString *)apiKey; //Required and must be the first call
+-(void)startServiceForAppID:(NSString *)appId withAPIKey:(NSString *)apiKey; //Required and must be called first
 
 -(void)setUserAge:(NSInteger)age; // Optional - set the user's age
 -(void)setUserGender:(BOOL)gender; // Optional - set user's gender (0 for female or 1 for male)
