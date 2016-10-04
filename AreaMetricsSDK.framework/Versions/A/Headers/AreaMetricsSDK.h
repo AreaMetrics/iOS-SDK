@@ -12,7 +12,7 @@
 #import <CoreBluetooth/CoreBluetooth.h>
 #import <AdSupport/AdSupport.h>
 
-// If setting up any beacons of your own, use the AreaMetricsSDK Proximity UUID "B9407F30-F5F8-466E-AFF9-25556B577272"
+// If setting up your own beacons, use AreaMetrics Proximity UUID "B9407F30-F5F8-466E-AFF9-25556B577272"
 
 @interface AreaMetricsSDK : NSObject
 
