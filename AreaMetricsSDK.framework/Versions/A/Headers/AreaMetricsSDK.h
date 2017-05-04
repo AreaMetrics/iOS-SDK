@@ -34,4 +34,7 @@
 -(void)setUserID:(NSString *)userId; // Optional - set user's id within your app
 -(void)setCustomDataForKey:(NSString *)key withValue:(NSString *)value; //Optional - set custom data
 
+-(void)feedbackEnabled:(BOOL)enabled; // Optional - set to NO to disable SDK NSLogs
+-(NSDictionary *)getCachedPersona; // Optional - returns locally stored persona on-demand. Returns nil if persona generation has not successfully occurred yet.
+
 @end
