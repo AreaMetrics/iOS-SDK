@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name = "AreaMetricsSDK"
-  s.version = "3.1.2"
+  s.version = "3.1.3"
   s.summary = "AreaMetrics iOS SDK"
   s.homepage = "http://areametrics.com"
   s.author = { "AreaMetrics, Inc." => "engineering@areametrics.com" }
   s.platform = :ios, "8.0"
-  s.source = { :git => "https://github.com/AreaMetrics/iOS-SDK.git", :tag => "v3.1.2" }
+  s.source = { :git => "https://github.com/AreaMetrics/iOS-SDK.git", :tag => "v3.1.3" }
   s.source_files = 'AreaMetricsSDK.framework/Versions/A/Headers/*.h'
   s.preserve_paths = 'AreaMetricsSDK.framework'
   s.vendored_frameworks = 'AreaMetricsSDK.framework'
