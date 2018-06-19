@@ -34,6 +34,8 @@
 -(void)setUserID:(NSString *)userId; // Optional - set user's id within your app
 -(void)setCustomDataForKey:(NSString *)key withValue:(NSString *)value; //Optional - set custom data
 
+-(void)setUserGDPRConsent:(BOOL)consent; // Optional - defaulted to NO, which strips out all device identifiers before any data is sent to AreaMetrics servers (if the device is registered to an EU country or one of its location points is in the EU). When set to YES you are communicating that you have obtained sufficient GDPR consent from the user for AreaMetrics to enable data sharing and thus monetize the user for your app. If a user revokes consent, set this BOOL back to NO.
+
 -(void)feedbackEnabled:(BOOL)enabled; // Optional - set to NO to disable SDK NSLogs
 -(NSDictionary *)getCachedPersona; // Optional - returns locally stored persona on-demand. Returns nil if persona generation has not successfully occurred yet.
 
